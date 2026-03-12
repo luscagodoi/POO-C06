@@ -25,9 +25,9 @@ public class App {
         valor_medio = valor_total / (quantidade_inteira + quantidade_meia);
 
         System.out.println("==============================================");
-        System.out.println("Valor total dos ingressos inteiros: R$ " + String.format("%.2f", valor_total_inteira));
-        System.out.println("Valor total dos ingressos meia-entrada: R$ " + String.format("%.2f", valor_total_meia));
-        System.out.println("Valor total arrecadado: R$ " + String.format("%.2f", valor_total));
-        System.out.println("Valor médio dos ingressos: R$ " + String.format("%.2f", valor_medio));
+        System.out.println("Valor total dos ingressos inteiros: R$ " + valor_total_inteira);
+        System.out.println("Valor total dos ingressos meia-entrada: R$ " + valor_total_meia);
+        System.out.println("Valor total arrecadado: R$ " + valor_total);
+        System.out.println("Valor médio dos ingressos: R$ " + valor_medio);
     }
 }
